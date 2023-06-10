@@ -6,17 +6,25 @@
 
 - **Features** 
  ```sh
-# Accuracy
-# Speed
+# Measure Accuracy
+# Measure Speed
 # Custom Timings
 # Correct and Wrong Words
 # Correct and Wrong Characters
  ```
 
+- **Screenshots** 
 
-![image](https://github.com/Digvijay78/change/assets/110631494/2ada6f26-0a0f-44e2-a79a-c531e6b25fc5)
+![image](https://github.com/Digvijay78/change/assets/110631494/146b3bf6-638c-4d05-abb2-75d70b7a9b6d)
 
-![image](https://github.com/Digvijay78/change/assets/110631494/b138b0a0-f576-4946-ab03-05b5e2698cf1)
+- **Custom Timings** 
 
+![image](https://github.com/Digvijay78/change/assets/110631494/e768e0d5-18d9-4e12-a0e7-282fe9b737e3)
 
-![image](https://github.com/Digvijay78/change/assets/110631494/1e546f82-2e6b-4f20-b207-a720955df49a)
+- **Correct and wrong Words Timings** 
+
+![image](https://github.com/Digvijay78/change/assets/110631494/e344bdaa-1248-4cc0-8178-52b7b9285cfa)
+
+- **Results**
+
+![image](https://github.com/Digvijay78/change/assets/110631494/103b4373-13de-42c6-a003-b459668a6a24)
