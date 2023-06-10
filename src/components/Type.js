@@ -23,10 +23,12 @@ const Type = ({
 
 <h3>Select Timings</h3>
 <div class="timings dflex">
-      <p class="timings" onClick={() => setTime(30)} >30</p>
-      <p class="timings" onClick={() => setTime(60)} >60</p>
-      <p class="timings" onClick={() => setTime(90)} >90</p>
-      <p class="timings" onClick={() => setTime(120)} >120</p>
+      <p class="timings" onClick={() => setTime(30)} >30S</p>
+      <p class="timings" onClick={() => setTime(60)} >60S</p>
+      <p class="timings" onClick={() => setTime(90)} >90S</p>
+      <p class="timings" onClick={() => setTime(120)} >2M</p>
+      <p class="timings" onClick={() => setTime(180)} >3M</p>
+      <p class="timings" onClick={() => setTime(300)} >5M</p>
      </div>
      
 
