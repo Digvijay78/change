@@ -1,4 +1,5 @@
 # `Touch Type`
+``` A touch typing app built in reactjs for measuring typing speed and accuracy of user ```
 
 ### **Tech Stack**
 `React Js`
