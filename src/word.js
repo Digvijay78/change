@@ -1,0 +1,95 @@
+const words = [
+  "apple",
+  "banana",
+  "cat",
+  "dog",
+  "elephant",
+  "frog",
+  "guitar",
+  "house",
+  "island",
+  "jungle",
+  "kangaroo",
+  "lion",
+  "mountain",
+  "noodle",
+  "ocean",
+  "penguin",
+  "queen",
+  "rabbit",
+  "sun",
+  "tiger",
+  "umbrella",
+  "victory",
+  "whale",
+  "xylophone",
+  "yacht",
+  "zebra",
+  "airplane",
+  "book",
+  "car",
+  "desk",
+  "elephant",
+  "flower",
+  "guitar",
+  "hat",
+  "ice cream",
+  "jacket",
+  "kite",
+  "laptop",
+  "moon",
+  "notebook",
+  "orange",
+  "piano",
+  "quilt",
+  "rainbow",
+  "sunflower",
+  "tree",
+  "umbrella",
+  "violin",
+  "watermelon",
+  "xylophone",
+  "yoyo",
+  "zeppelin",
+  "ant",
+  "butterfly",
+  "crocodile",
+  "dolphin",
+  "eagle",
+  "fox",
+  "giraffe",
+  "hedgehog",
+  "iguana",
+  "jellyfish",
+  "kitten",
+  "ladybug",
+  "monkey",
+  "narwhal",
+  "octopus",
+  "panda",
+  "quokka",
+  "rhinoceros",
+  "squirrel",
+  "toucan",
+  "unicorn",
+  "vulture",
+  "wombat",
+  "x-ray fish",
+  "yak",
+  "zebu"
+];
+
+
+const shuffleWord = () => {
+  const array = [...words];
+  for (let i = array.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    let temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array.slice(0, 100);
+};
+
+
+export default shuffleWord;
